@@ -1,0 +1,12 @@
+body {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px;
+    background-color:black;
+}
+
+div {
+    background-image: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(164,253,45,1) 100%);
+    background-attachment: fixed;
+    padding: 50px;
+}
